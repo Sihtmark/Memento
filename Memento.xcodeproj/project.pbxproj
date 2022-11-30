@@ -13,6 +13,11 @@
 		A01696B429375C2300CB0B32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01696B229375C2300CB0B32 /* Main.storyboard */; };
 		A01696B629375C2400CB0B32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01696B529375C2400CB0B32 /* Assets.xcassets */; };
 		A01696B929375C2400CB0B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01696B729375C2400CB0B32 /* LaunchScreen.storyboard */; };
+		A01696C12937623D00CB0B32 /* LineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01696C02937623D00CB0B32 /* LineModel.swift */; };
+		A01696C32937632F00CB0B32 /* StateLinesMemento.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01696C22937632F00CB0B32 /* StateLinesMemento.swift */; };
+		A01696C5293763EA00CB0B32 /* LinesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01696C4293763EA00CB0B32 /* LinesManager.swift */; };
+		A01696C729379ABA00CB0B32 /* CarrierState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01696C629379ABA00CB0B32 /* CarrierState.swift */; };
+		A01696C92937A57400CB0B32 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01696C82937A57400CB0B32 /* DrawView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		A01696B529375C2400CB0B32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A01696B829375C2400CB0B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A01696BA29375C2400CB0B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A01696C02937623D00CB0B32 /* LineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineModel.swift; sourceTree = "<group>"; };
+		A01696C22937632F00CB0B32 /* StateLinesMemento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateLinesMemento.swift; sourceTree = "<group>"; };
+		A01696C4293763EA00CB0B32 /* LinesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinesManager.swift; sourceTree = "<group>"; };
+		A01696C629379ABA00CB0B32 /* CarrierState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrierState.swift; sourceTree = "<group>"; };
+		A01696C82937A57400CB0B32 /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				A01696B529375C2400CB0B32 /* Assets.xcassets */,
 				A01696B729375C2400CB0B32 /* LaunchScreen.storyboard */,
 				A01696BA29375C2400CB0B32 /* Info.plist */,
+				A01696C02937623D00CB0B32 /* LineModel.swift */,
+				A01696C22937632F00CB0B32 /* StateLinesMemento.swift */,
+				A01696C4293763EA00CB0B32 /* LinesManager.swift */,
+				A01696C629379ABA00CB0B32 /* CarrierState.swift */,
+				A01696C82937A57400CB0B32 /* DrawView.swift */,
 			);
 			path = Memento;
 			sourceTree = "<group>";
@@ -140,7 +155,12 @@
 			files = (
 				A01696B129375C2300CB0B32 /* ViewController.swift in Sources */,
 				A01696AD29375C2300CB0B32 /* AppDelegate.swift in Sources */,
+				A01696C92937A57400CB0B32 /* DrawView.swift in Sources */,
 				A01696AF29375C2300CB0B32 /* SceneDelegate.swift in Sources */,
+				A01696C729379ABA00CB0B32 /* CarrierState.swift in Sources */,
+				A01696C12937623D00CB0B32 /* LineModel.swift in Sources */,
+				A01696C32937632F00CB0B32 /* StateLinesMemento.swift in Sources */,
+				A01696C5293763EA00CB0B32 /* LinesManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
